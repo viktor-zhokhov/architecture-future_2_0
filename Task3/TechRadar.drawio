@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" version="24.7.11">
+  <diagram name="Технологический радар" id="tech-radar">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ring_Adopt" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="460" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ring_Trial" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="370" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ring_Assess" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="540" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ring_Hold" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="720" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="ringlabel_Adopt" value="Adopt" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="493.0" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ringlabel_Trial" value="Trial" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="403.0" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ringlabel_Assess" value="Assess" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="313.0" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ringlabel_Hold" value="Hold" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="223.0" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="axis_v" style="html=1;endArrow=none;strokeColor=#999999;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="180" as="sourcePoint" />
+            <mxPoint x="750" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axis_h" style="html=1;endArrow=none;strokeColor=#999999;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="sourcePoint" />
+            <mxPoint x="1120" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlabel_Языки и платформы" value="Языки и платформы" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="135" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qlabel_Инструменты и методологии" value="Инструменты и методологии" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="135" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qlabel_Данные и аналитика" value="Данные и аналитика" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="935" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qlabel_Инфраструктура" value="Инфраструктура" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="935" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="773.8198051533947" y="510.18019484660533" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_1" value="Python и Golang/Java (домены ИИ и Финтех)&#10;[независимое развитие направлений]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="820.7106781186548" y="461.28932188134524" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="837.4594154601839" y="446.5405845398161" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_2" value="TypeScript/React (фронтенд портала)&#10;[портал самообслуживания]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="884.350288425444" y="397.649711574556" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#a68a3d;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="901.0990257669732" y="382.90097423302683" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_3" value="Фреймворк для нового интерфейса клиники&#10;[качество мед. сервиса, замена PowerBuilder]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="947.9898987322333" y="334.0101012677667" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6b6b6b;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="964.7386360737624" y="319.26136392623755" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_4" value="PowerBuilder и бизнес-логика в DWH&#10;[снижение зависимости от DWH]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1011.6295090390227" y="270.37049096097746" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_5" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="710.1801948466053" y="510.18019484660533" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_5" value="Доменная шина / API-шлюз с RBAC/ABAC&#10;[независимое развитие, портал самообслуживания]" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="419.28932188134524" y="461.28932188134524" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_6" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="646.5405845398161" y="446.5405845398161" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_6" value="CI/CD для доменных сервисов&#10;[независимое развитие направлений]" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355.649711574556" y="397.64971157455597" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_7" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#a68a3d;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="582.9009742330268" y="382.9009742330268" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_7" value="Feature flags для доменных релизов&#10;[безопасный поэтапный выпуск изменений]" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="292.0101012677667" y="334.0101012677667" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_8" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6b6b6b;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="519.2613639262376" y="319.26136392623755" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_8" value="ESB (Apache Camel)&#10;[заменяется доменной шиной]" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="228.37049096097746" y="270.3704909609774" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_9" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="710.1801948466053" y="573.8198051533947" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_9" value="Cloud DWH / Lakehouse&#10;[быстрая отчётность, портал самообслуживания]" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="419.28932188134524" y="602.7106781186548" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_10" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="646.5405845398161" y="637.4594154601839" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_10" value="Data Mesh (доменный подход к данным)&#10;[интеграция новых бизнесов]" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355.6497115745559" y="666.350288425444" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_11" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#a68a3d;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="582.9009742330268" y="701.0990257669732" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_11" value="Каталог данных (Data Catalog)&#10;[масштабирование для новых бизнесов]" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="292.0101012677667" y="729.9898987322333" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_12" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6b6b6b;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="519.2613639262374" y="764.7386360737624" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_12" value="DWH-монолит и надстройка Power BI&#10;[заменяется порталом самообслуживания]" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="228.37049096097735" y="793.6295090390225" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="773.8198051533947" y="573.8198051533947" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_13" value="Облачная инфраструктура (IaaS) на Terraform&#10;[масштабирование, автоматизация (см. Task4)]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="820.7106781186548" y="602.7106781186548" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_14" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="837.4594154601839" y="637.4594154601839" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_14" value="Контейнеризация доменных сервисов&#10;[независимое развитие направлений]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="884.350288425444" y="666.3502884254441" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_15" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#a68a3d;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="901.0990257669731" y="701.0990257669732" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_15" value="Геораспределённое развёртывание&#10;[надёжность мед. и фин. сервисов]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="947.9898987322333" y="729.9898987322333" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_16" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6b6b6b;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="964.7386360737624" y="764.7386360737626" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_16" value="On-premise серверы&#10;[не масштабируется под рост бизнеса]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1011.6295090390225" y="793.6295090390227" width="260" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" value="Легенда колец:" style="text;html=1;align=left;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legdot_Adopt" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leglbl_Adopt" value="Adopt — внедрять — целевая технология" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="55" y="55" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="legdot_Trial" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="88" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leglbl_Trial" value="Trial — пробовать — пилотируется" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="55" y="83" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="legdot_Assess" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#a68a3d;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="116" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leglbl_Assess" value="Assess — изучать — кандидат на будущее" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="55" y="111" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="legdot_Hold" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6b6b6b;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="144" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leglbl_Hold" value="Hold — сдерживать — легаси, не развивать" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="55" y="139" width="400" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
