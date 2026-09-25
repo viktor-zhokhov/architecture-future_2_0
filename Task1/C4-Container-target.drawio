@@ -10,8 +10,8 @@
         <mxCell id="clinic_op" value="Оператор клиники&#10;[Person]" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="560" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="portal" value="Портал самообслуживания&#10;[Web Application, новый]&#10;отчёты и срезы в рамках&#10;уровня доступа" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="320" y="20" width="260" height="90" as="geometry" />
+        <mxCell id="portal" value="Портал самообслуживания&#10;[Web Application, новый]&#10;заменяет Power BI-надстройку;&#10;отчёты и срезы в рамках&#10;уровня доступа" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dwh_cloud" value="Аналитическое хранилище&#10;[Cloud DWH / Lakehouse, новый]&#10;клиенты, финансы, счета, кредиты,&#10;персонал, ТМЦ, отчётность&#10;(БЕЗ медкарт и результатов исследований)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="640" y="20" width="280" height="100" as="geometry" />
@@ -22,8 +22,8 @@
         <mxCell id="etl" value="Слой интеграции данных (ETL/ELT)&#10;[Service, новый]&#10;собирает немедицинские данные&#10;для отчётности" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="640" y="180" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bus" value="Доменная шина событий /&#10;API-шлюз&#10;[Service, новый]&#10;интеграция доменов без&#10;изменений в DWH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="180" width="260" height="110" as="geometry" />
+        <mxCell id="bus" value="Доменная шина событий /&#10;API-шлюз&#10;[Service, новый]&#10;заменяет ESB (Apache Camel);&#10;интеграция доменов без&#10;изменений в DWH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="180" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fintech" value="Домен «Финтех»&#10;[Golang/Java]&#10;существующие сервисы" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1340" y="40" width="240" height="80" as="geometry" />
