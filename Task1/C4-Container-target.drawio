@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" version="24.7.11">
+  <diagram name="C4 Container — целевая архитектура (через 1 год)" id="c4-container">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="user" value="Бизнес-пользователь&#10;[Person]&#10;сотрудник домена" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="clinic_op" value="Оператор клиники&#10;[Person]" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="portal" value="Портал самообслуживания&#10;[Web Application, новый]&#10;заменяет Power BI-надстройку;&#10;отчёты и срезы в рамках&#10;уровня доступа" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dwh_cloud" value="Аналитическое хранилище&#10;[Cloud DWH / Lakehouse, новый]&#10;клиенты, финансы, счета, кредиты,&#10;персонал, ТМЦ, отчётность&#10;(БЕЗ медкарт и результатов исследований)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="20" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac" value="Сервис контроля доступа (RBAC)&#10;[Service, новый]&#10;права на срезы данных&#10;по уровню доступа" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="etl" value="Слой интеграции данных (ETL/ELT)&#10;[Service, новый]&#10;собирает немедицинские данные&#10;для отчётности" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="180" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bus" value="Доменная шина событий /&#10;API-шлюз&#10;[Service, новый]&#10;заменяет ESB (Apache Camel);&#10;интеграция доменов без&#10;изменений в DWH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="180" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fintech" value="Домен «Финтех»&#10;[Golang/Java]&#10;существующие сервисы" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="40" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ai" value="Домен «ИИ-сервисы»&#10;[Python]&#10;существующие сервисы" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="190" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="partners" value="Домен «Партнёры» (будущее)&#10;[планируется]&#10;фарма, электроника" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2b8f6e;strokeColor=#1c6b4f;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="340" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="client_ui" value="Клиентский интерфейс&#10;оператора&#10;[PowerBuilder, legacy,&#10;временно]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6b6b6b;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="legacy_dwh" value="Legacy DWH (SQL Server 2008)&#10;[Data Store, legacy, временно]&#10;домен «Клиника» + медданные,&#10;бизнес-логика не расширяется" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#6b6b6b;fontColor=#ffffff;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="580" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="строит отчёты в пределах&#10;уровня доступа&#10;[быстрая отчётность]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="user" target="portal">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="проверка прав доступа&#10;к срезу данных" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="portal" target="rbac">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="запрос отчёта/среза данных&#10;[быстрая отчётность]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="portal" target="dwh_cloud">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="загрузка немедицинских данных&#10;для отчётности" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="etl" target="dwh_cloud">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="аналитические события всех&#10;доменов (без мед.данных)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="bus" target="etl">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="операционная интеграция&#10;без изменений в DWH&#10;[независимое развитие финтеха]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="fintech" target="bus">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="операционная интеграция&#10;без изменений в DWH&#10;[независимое развитие ИИ]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="ai" target="bus">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="подключение нового бизнеса&#10;без изменений в DWH&#10;[масштабирование]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="partners" target="bus">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="немедицинские данные клиники&#10;(биллинг, расписание, ТМЦ)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="legacy_dwh" target="bus">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1130" y="625" /><mxPoint x="1130" y="290" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="перенос сохранившихся данных&#10;(переходный период)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="legacy_dwh" target="etl">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="медицинские данные, снимки&#10;(вне аналитического периметра)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="client_ui" target="legacy_dwh">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="ввод медицинских данных" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontSize=10;" edge="1" parent="1" source="clinic_op" target="client_ui">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
